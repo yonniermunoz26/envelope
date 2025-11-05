@@ -1,5 +1,5 @@
 function [x, envelope] = shear_envelope(beam, n, showPlot, targetAxes)
-    addpath(fullfile(pwd, '..', '..', 'models'));
+    addpath(fullfile(pwd, 'lib', 'core', 'models'));
     if nargin < 3
         showPlot = false;
     end

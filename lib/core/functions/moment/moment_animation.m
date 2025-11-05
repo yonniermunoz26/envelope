@@ -1,5 +1,5 @@
 function moment_animation(beam, showDivs, exportGif)
-    addpath(fullfile(pwd, '..', '..', 'models'));
+    addpath(fullfile(pwd, 'lib', 'core', 'models'));
 
     if nargin < 2
         showDivs = false;

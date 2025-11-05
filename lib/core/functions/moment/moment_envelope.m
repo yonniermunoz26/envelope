@@ -1,5 +1,5 @@
 function [x, envelope] = moment_envelope(beam, n, showPlot, ax)
-    addpath(fullfile(pwd, '..', '..', 'models'));
+    addpath(fullfile(pwd, 'lib', 'core', 'models'));
 
     if nargin < 3
         showPlot = false;
